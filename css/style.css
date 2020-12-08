@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+#header-top{
+    width: 100%;
+    background: #4267B2;
+    padding: 15px 0;
+}
+#header-top .main{
+    display: flex;
+}
+#header-top .logo{
+    width: 40%;
+    margin-top: 10px;
+    }
+#header-top .logo h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #fff;
+}
+#header-top .sign-up{
+    width: 60%;
+    
+    
+}
+#header-top .sign-up .contact{
+    display: flex;
+    justify-content: flex-end;
+}
+#header-top .sign-up .contact .phone{
+    width: 30%;
+        
+}
+#header-top .sign-up .contact .phone p{
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding-bottom: 5px;
+}
+#header-top .sign-up .contact .common{
+   width: 180px;
+    height: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+#header-top .sign-up .contact .password{
+    width: 30%;   
+    
+}
+#header-top .sign-up .contact .password p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #fff;
+    padding-bottom: 5px;
+}
+#header-top .sign-up .contact .password a{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #18A4F7;
+    text-decoration: none;
+    padding-top: 5px;
+}
+#header-top .sign-up .contact .log-in{
+    width: 10%;
+   }
+#header-top .sign-up .contact .log-in .button{
+    padding: 4px 5px;
+    color: #fff;
+    background: #5c779f;
+    border: 0;
+    outline: none;
+    margin-top: 22px;
+}
+#header-top .sign-up .contact .log-in .button a{
+    text-decoration: none;
+    color: #fff;
+}
+#header-top .sign-up .contact .log-in .button:hover{
+    background: #365899;
+}
+#banner{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(#FAFBFD 30%,#D6DBEA)
+}
+#banner .main{
+    display: flex;
+}
+#banner .main .left{
+    width: 50%;
+    height: 400px;
+}
+#banner .main .left h2{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #0E38A1;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#banner .main .right{
+    width: 40%;
+    margin-left: 10px;
+    }
+#banner .main .right h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #1D2129;
+    margin-bottom: 5px;
+}
+#banner .main .right .tag1{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #1D2129;
+    margin-bottom: 5px;
+}
+#banner .main .right .common1{
+    width: 190px;
+    height: 40px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+#banner .main .right .common2{
+    width: 400px;
+    height: 40px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+#banner .main .right .tag2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #90949C;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#banner .main .right .tag3{
+    width: 60px;
+    height: 30px;
+    padding-left: 3px;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+#banner .main .right h4{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #90949C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#banner .main .right .tag4{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #1D2129;
+    margin-bottom: 10px;
+}
+#banner .main .right .tag5{
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #1D2129;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#banner .main .right .tag5 a{
+    text-decoration: none;
+}
+#banner .main .right .button{
+    width: 190px;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #F9ECC1;
+    margin-top: 5px;
+    background: #477935;
+    padding-left: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    
+}
+#banner .main .right .button a{
+   font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+#banner .main .right .button:hover{
+    background: #67A052;
+}
